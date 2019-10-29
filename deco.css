@@ -1,0 +1,21 @@
+h1 {
+    position: sticky;
+    top: 30px;
+    left: 30px;
+  }
+
+  div#colonne1 {
+	float: left;
+	width: 200px;
+	background:  167, 167rgb(167,);
+}
+
+div#colonne2 {
+	float: right;
+	width: 200px;
+	background: rgb(167, 167, 167);
+}
+
+div#centre {
+	background: rgb(255, 255, 255);
+}
