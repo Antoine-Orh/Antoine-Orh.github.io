@@ -16,21 +16,12 @@ div#colonne2 {
 	background-color: rgb(150, 150, 150);
 }
 
-div#centregauche {
+div#centre {
 	background: white;
 }
 
-div#centredroite {
-	background: white;
-}
-
-div#centregauche {
+h3 {
 	text-align: center;
   }
-
-div#centredroite {
-	text-align: center;
-  }
-  
 
 body {background-color: rgb(150, 150, 150);}
