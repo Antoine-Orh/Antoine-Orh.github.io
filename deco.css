@@ -7,15 +7,30 @@ h1 {
   div#colonne1 {
 	float: left;
 	width: 200px;
-	background:  167, 167rgb(167,);
+	background-color: rgb(150, 150, 150);
 }
 
 div#colonne2 {
 	float: right;
 	width: 200px;
-	background: rgb(167, 167, 167);
+	background-color: rgb(150, 150, 150);
 }
 
-div#centre {
-	background: rgb(255, 255, 255);
+div#centregauche {
+	background: white;
 }
+
+div#centredroite {
+	background: white;
+}
+
+div#centregauche {
+	text-align: center;
+  }
+
+div#centredroite {
+	text-align: center;
+  }
+  
+
+body {background-color: rgb(150, 150, 150);}
