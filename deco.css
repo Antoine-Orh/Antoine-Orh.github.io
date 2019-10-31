@@ -1,27 +1,51 @@
+body {
+		background-color: rgb(179, 179, 179) ;
+}
+	  
 h1 {
     position: sticky;
     top: 30px;
     left: 30px;
+}
+
+body { 
+	display: grid;
+	grid-template-areas: 
+	  "LeHaut LeHaut LeHaut"
+	  "riengauche trucAdiviser riendroite"
+	  "LeBas LeBas LeBas";
+	grid-template-rows: 80px 1fr 70px;  
+	grid-template-columns: 20% 1fr 15%;
+	height: 100vh;
+	margin: 0;
+	}  
+  LeHaut, LeBas, trucAdiviser, riengauche, riendroite {
+	padding: 1.2em;
+	}
+  #LeHaut {
+	grid-area: LeHaut;
+	}
+  #LeBas {
+	grid-area: LeBas;
+	}
+  #trucAdiviser { 
+	grid-area: trucAdiviser;      
+	}
+  #riengauche { 
+	grid-area: riengauche 
+	}
+  #riendroite { 
+	grid-area: riendroite; 
+	} 
+  @media all and (max-width: 575px) {
+	body { 
+	  grid-template-areas: 
+		"LeHaut"
+		"trucAdiviser"
+		"riendroite"
+		"riengauche"
+		"footer";
+	  grid-template-rows: 80px 1fr 70px 1fr 70px;  
+	  grid-template-columns: 1fr;
+   }
   }
-
-  div#colonne1 {
-	float: left;
-	width: 200px;
-	background-color: rgb(150, 150, 150);
-}
-
-div#colonne2 {
-	float: right;
-	width: 200px;
-	background-color: rgb(150, 150, 150);
-}
-
-div#centre {
-	background: white;
-}
-
-h3 {
-	text-align: center;
-  }
-
-body {background-color: rgb(150, 150, 150);}
