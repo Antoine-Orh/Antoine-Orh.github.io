@@ -18,7 +18,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	}  
-  LeHaut, LeBas, trucAdiviser, riengauche, riendroite {
+  header, footer, trucAdiviser, riengauche, riendroite {
 	padding: 1.2em;
 	}
   #LeHaut {
