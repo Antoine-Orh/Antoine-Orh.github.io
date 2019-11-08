@@ -1,0 +1,11 @@
+.wrapper {
+    display: grid;
+    grid-auto-columns: 100% ;
+    align-items: center;
+  }
+
+.BoiteTexte {
+    padding: 30px;
+    text-align: justify;
+    border: black 
+}
