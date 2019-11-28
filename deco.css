@@ -1,16 +1,47 @@
-body {
-		background-color: rgb(179, 179, 179) ;
-}
-
-body { 
-	  grid-template-areas: 
+body { 	
+	background-color: rgb(255, 255, 255);
+	grid-template-areas: 
 		"header"
 		"footer";
-	  grid-template: 1fr / 50px 100px 30px
+	grid-template: 1fr / 50px 100px 30px
    }
 
-.photo {
-	height: 500px;
-	margin-left: 25%;
+.Monlogo {
+	height: 90px;
+	margin-left:50%;
 	margin-top: 20px;
+}
+
+#texte1{
+padding: 5em;
+font-size: 1em;
+}
+
+.LinkedIN {
+	height: 25px;
+	margin-left: 15%;
+	margin-top: 20px;
+}
+
+footer {
+	padding-bottom: 10px;
+	color: white;
+	background-color: rgb(80, 94, 128);
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	text-align: center;
+}
+
+@media (min-device-width:600px) {
+
+
+body{
+	grid-template-areas: 
+	 "header"
+	 "footer";
+	 grid-template: 60px 1fr 1fr 60px / 1fr 1fr 1fr 1fr;
+background-color: rgb(255, 255, 255);
+	}
+
 }
