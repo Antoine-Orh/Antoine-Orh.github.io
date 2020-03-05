@@ -8,10 +8,16 @@ body {
    }
 
 .Monlogo {
-	height: 120px;
+	height: 100px;
 	display: block;
 	margin: auto;
 	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+h1{
+	text-align: center;
+	font-size: 17px;
 }
 
 #texte1{
@@ -41,9 +47,8 @@ footer {
 	background-color: rgb(80, 94, 128);
 	position:fixed;
 	bottom:0;
-	width: 110%;
+	width: 100%;
 	text-align: center;
-	margin-right: -2%;
 }
 
 @media (min-width:600px) {
