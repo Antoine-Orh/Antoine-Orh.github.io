@@ -1,4 +1,6 @@
 body { 	
+	margin: 0;
+	padding: 0;
 	background-color: rgb(255, 255, 255);
 	grid-template-areas: 
 		"header"
@@ -8,7 +10,7 @@ body {
    }
 
 .Monlogo {
-	height: 100px;
+	height: 69px;
 	display: block;
 	margin: auto;
 	margin-top: 20px;
@@ -20,10 +22,15 @@ h1{
 	font-size: 17px;
 }
 
-#texte1{
-padding: 5em;
-font-size: 1em;
+.hero-banner{
+	background-color: black;
+	min-height: 85vh; 
 }
+
+.fondbg {
+	  width: 100%;  height: auto; 
+	} 
+
 .img{
 	padding-top: 5%;
 }
@@ -45,7 +52,6 @@ footer {
 	padding-bottom: 10px;
 	color: white;
 	background-color: rgb(80, 94, 128);
-	position:fixed;
 	bottom:0;
 	width: 100%;
 	text-align: center;
