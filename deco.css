@@ -1,8 +1,8 @@
 body { 	
 	margin: 0;
 	padding: 0;
-	background-color: rgb(255, 255, 255);
-	grid-template-areas: 
+	background-color: rgb(179, 87, 87)
+	grid-template-area
 		"header"
 		"footer";
 	grid-template: 1fr / 50px 100px 30px;
@@ -19,6 +19,10 @@ header{
 	margin-bottom: 30px;
 }
 
+.separateur{
+	opacity: 0.5;
+}
+
 h1{
 	text-align: center;
 	font-size: 17px;
@@ -28,24 +32,28 @@ h1{
     padding: 5px
 }
 
-.hero-banner{
-	background-color: black;
-	min-height: 85vh; 
+#banner{;
+	min-height : 85vh; 
 }
 
 .fondbg {
 	  width: 100%;  height: auto; 
 	} 
 
-.img{
-	padding-top: 5%;
+h2{
+	padding-left: 17%;
+	padding-right: 17%;
 }
-.PhotoAuMilieu{
+h3{
+	padding-left: 17%;
+	padding-right: 17%;
+}
+
+.photo_entre_texte{
 	display: block;
-	margin: auto;
-	height: 350px;
-	border-radius: 10px;
-	
+	margin-left: auto;
+	margin-right: auto;
+	width: 24%;
 }
 
 .LinkedIN {
@@ -53,7 +61,10 @@ h1{
 	margin-left: 1%;
 	margin-top: 20px;
 }
-
+.ligne_au_dessus_footer{
+margin-top: 60px;
+margin-bottom: 60px;
+}
 footer {
 	padding-bottom: 10px;
 	color: white;
