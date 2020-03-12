@@ -32,41 +32,19 @@ h1{
     padding: 5px
 }
 
-#banner{;
-	min-height : 85vh; 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 040px;
+    grid-row-gap: 040px;
 }
 
-.fondbg {
-	  width: 100%;  height: auto; 
-	} 
 
-h2{
-	padding-left: 17%;
-	padding-right: 17%;
-}
-h3{
-	padding-left: 17%;
-	padding-right: 17%;
-}
 
-.photo_entre_texte{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 24%;
-}
 
-a:link, a:visited {
-	color: white;
-	padding: 50px 50px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-}
-  
-a:hover, a:active {
-	background-color: grey;
-}
+
+
 
 .LinkedIN {
 	height: 25px;
