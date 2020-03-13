@@ -1,14 +1,50 @@
-body { 	
-	margin: 0;
-	padding: 0;
-	background-color: rgb(179, 87, 87)
-	grid-template-area
-		"header"
-		"footer";
-	grid-template: 1fr / 50px 100px 30px;
-	font-family: 'Raleway', sans-serif;
-   }
-header{
+body { 
+	display: grid;
+	grid-template-areas: 
+    " header header"
+    "section section2"
+    "section3 section4"
+    "footer footer";
+	grid-template-rows: 80px 1fr  1fr 50px;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+  height: 100vh;
+  margin-left: 150px;  
+  margin-left: 150px;
+}
+
+header {
+	grid-area: header;
+}
+
+.section {
+	background: #ABABAB;
+	grid-area: section;    
+}
+
+.section2 {
+	background: #ABABAB;
+	grid-area: section2;    
+}
+
+.section3 {
+	background: #ABABAB;
+	grid-area: section3;    
+}
+
+.section4 {
+	background: #ABABAB;
+	grid-area: section4;    
+}
+
+footer {
+	background: #707070;
+	grid-area: footer;
+}
+
+header, nav, section, aside, footer, section2 {
+	padding: 5px;
+}header{
 	text-align: center;
 }
 .Monlogo {
@@ -23,6 +59,10 @@ header{
 	opacity: 0.5;
 }
 
+.imggauche{
+	max-height: 300px;
+	max-width: auto;
+}
 h1{
 	text-align: center;
 	font-size: 17px;
@@ -39,6 +79,7 @@ h1{
     grid-column-gap: 040px;
     grid-row-gap: 040px;
 }
+
 
 
 
@@ -63,7 +104,7 @@ footer {
 	width: 100%;
 	text-align: center;
 }
-
+/*
 @media (min-width:600px) {
 
 
@@ -75,3 +116,4 @@ body{
 	}
 
 }
+*/
