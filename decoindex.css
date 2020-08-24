@@ -4,6 +4,7 @@ body {
 	grid-template: 1fr / 50px 100px 30px;
 	font-family: 'Raleway', sans-serif;
    }
+
 header{
 	text-align: center;
 }
@@ -28,10 +29,6 @@ h1{
     padding: 5px
 }
 
-#banner{;
-	min-height : 85vh; 
-}
-
 .fondbg {
 	  width: 100%;  height: auto; 
 	} 
@@ -52,27 +49,69 @@ h3{
 	width: 24%;
 }
 
-a:link, a:visited {
-	color: grey;
-	padding: 50px 50px;
-	text-align: center;z
-	text-decoration: none;
-	display: inline-block;
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+
 }
-  
-a:hover, a:active {
-	background-color: white;
+.github{
+	margin: auto;
 }
+
+.A1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.A2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.A3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.A4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.A5{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.A6{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mentions{
+	margin: 60px;
+}
+
 
 .LinkedIN {
 	height: 25px;
 	margin-left: 1%;
 	margin-top: 20px;
 }
+
 .ligne_au_dessus_footer{
 margin-top: 60px;
 margin-bottom: 60px;
 }
+
 footer {
 	padding-bottom: 10px;
 	color: white;

@@ -1,52 +1,62 @@
-body { 
-	display: grid;
-	grid-template-areas: 
-    " header header"
-    "section section2"
-    "section3 section4"
-    "footer footer";
-	grid-template-rows: 80px 1fr  1fr 50px;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 5px;
-  height: 100vh;
-  margin-left: 150px;  
-  margin-left: 150px;
-}
+body { 	
+	margin: 0;
+	padding: 0;
+	background-color: rgb(179, 87, 87)
+	grid-template-area
+		"header"
+		"footer";
+	grid-template: 1fr / 50px 100px 30px;
+	font-family: 'Raleway', sans-serif;
+   }
 
 header {
 	grid-area: header;
 }
 
-.section {
-	background: #ABABAB;
-	grid-area: section;    
+.wrapper {
+	padding-left: 70px;
+	padding-right: 70px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
 }
 
-.section2 {
-	background: #ABABAB;
-	grid-area: section2;    
+.imggauche{
+	margin: 0 auto;
+	height: auto;
+	width: 200px;
+	padding-left: 35%;
 }
 
-.section3 {
-	background: #ABABAB;
-	grid-area: section3;    
+.imgdroite{
+	margin: 0 auto;
+	height: auto;
+	width: 400px;
+	padding-right: 30%;
 }
 
-.section4 {
-	background: #ABABAB;
-	grid-area: section4;    
+.zone1{
+	padding: 5px;
+	margin-top: 70px;
+
 }
+
 
 footer {
+	margin-top: 200px;
 	background: #707070;
 	grid-area: footer;
 }
 
 header, nav, section, aside, footer, section2 {
 	padding: 5px;
-}header{
+}
+
+header{
 	text-align: center;
 }
+
 .Monlogo {
 	height: 69px;
 	display: block;
@@ -59,10 +69,6 @@ header, nav, section, aside, footer, section2 {
 	opacity: 0.5;
 }
 
-.imggauche{
-	max-height: 300px;
-	max-width: auto;
-}
 h1{
 	text-align: center;
 	font-size: 17px;
@@ -80,22 +86,17 @@ h1{
     grid-row-gap: 040px;
 }
 
-
-
-
-
-
-
-
 .LinkedIN {
 	height: 25px;
 	margin-left: 1%;
 	margin-top: 20px;
 }
+
 .ligne_au_dessus_footer{
 margin-top: 60px;
 margin-bottom: 60px;
 }
+
 footer {
 	padding-bottom: 10px;
 	color: white;
@@ -104,6 +105,8 @@ footer {
 	width: 100%;
 	text-align: center;
 }
+
+
 /*
 @media (min-width:600px) {
 
